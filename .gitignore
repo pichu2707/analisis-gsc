@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+#Archivos de prueba 
+tests/
+.pytest_cache/
+
+# Archivos de credenciales
+client_secret.json
+authorizedcreds.data
