@@ -13,8 +13,8 @@ domain = input('Ingresa el dominio (ejemplo: www.javilazaro.es): ')
 site = domain  # Propiedad de dominio
 creds = 'client_secret.json'    # Archivo de credenciales
 output = 'gsc_data.csv'
-start_date = '2025-01-01'
-end_date = '2025-08-25'  # Puedes ajustar la fecha final
+start_date = '2025-08-01'
+end_date = '2025-08-31'  # Puedes ajustar la fecha final
 
 webmasters_service = authorize_creds(creds)
 

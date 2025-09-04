@@ -17,3 +17,6 @@ tests/
 # Archivos de credenciales
 client_secret.json
 authorizedcreds.data
+
+#Archivos de pruebas o directorios de pruebas
+*_com/

@@ -37,10 +37,9 @@ python run_gsc.py --main_folder <nombre_de_tu_carpeta>
 
 El script te preguntará si quieres buscar canibalización ('S') o solo filtrar y guardar los datos ('N').
 
-## Personalización
+## Canibalización
 
-- Puedes cambiar el dominio/proyecto modificando el argumento `--main_folder` o la URL base.
-- El flujo es modular: puedes usar solo las funciones de filtrado o solo el análisis de canibalización si lo necesitas.
+- Se han añadido la opción de sacar canibalizaciones con filtrado de número de clics, impresiones y posición media. Además se ha añadido la incorporación de extracción de *title* y *headers* de cada una de las urls que hemos extraido.
 
 ## Requisitos
 
